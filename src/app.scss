@@ -1,0 +1,43 @@
+$backgroundColor: #333;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: $backgroundColor;
+  color: #eee;
+  padding: 1rem 4rem;
+  font-size: 16pt;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+}
+
+#buttons {
+  margin: 2rem 0;
+}
+
+#buttons a {
+  background: #557;
+  color: #ccf;
+  border: 2px solid #779;
+  border-radius: 4px;
+  padding: 0.7rem;
+  margin-right: 1rem;
+}
+
+#buttons a:hover {
+  background: #779;
+  color: #eef;
+}
+
+#buttons a:active {
+  background: #446;
+  color: #bbd;
+}
