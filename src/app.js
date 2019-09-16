@@ -1,19 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-const Header = () => {
-  return (
-    <header>
-      <h1>Header</h1>
-    </header>
-  );
-};
-
-class Footer extends React.Component {
-  render() {
-    return <footer>&copy; 2018 Code Fellows</footer>;
-  }
-}
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 class Main extends React.Component {
   constructor(props) {
