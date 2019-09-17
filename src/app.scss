@@ -23,21 +23,22 @@ header {
   margin: 2rem 0;
 }
 
-#buttons a {
+button {
   background: #557;
   color: #ccf;
+  font-size: 16pt;
   border: 2px solid #779;
   border-radius: 4px;
   padding: 0.7rem;
   margin-right: 1rem;
 }
 
-#buttons a:hover {
+button:hover {
   background: #779;
   color: #eef;
 }
 
-#buttons a:active {
+button:active {
   background: #446;
   color: #bbd;
 }
