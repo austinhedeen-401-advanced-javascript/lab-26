@@ -1,5 +1,4 @@
 import React from 'react';
-import { connect } from 'react-redux';
 
 import Counter from './components/Counter/Counter';
 import Footer from './components/Footer/Footer';
