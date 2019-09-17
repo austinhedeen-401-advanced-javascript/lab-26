@@ -1,0 +1,44 @@
+$backgroundColor: #333;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: $backgroundColor;
+  color: #eee;
+  padding: 1rem 4rem;
+  font-size: 16pt;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+}
+
+#buttons {
+  margin: 2rem 0;
+}
+
+button {
+  background: #557;
+  color: #ccf;
+  font-size: 16pt;
+  border: 2px solid #779;
+  border-radius: 4px;
+  padding: 0.7rem;
+  margin-right: 1rem;
+}
+
+button:hover {
+  background: #779;
+  color: #eef;
+}
+
+button:active {
+  background: #446;
+  color: #bbd;
+}
